@@ -162,8 +162,8 @@ export default function Job({ info, addFilter, filterList }) {
     <>
       {found && (
         <Box
-          initial={{ x: -1000 }}
-          whileInView={{ x: 0 }}
+          initial={{ scale: 0 }}
+          whileInView={{ scale: 1 }}
           whileHover={{ y: -20 }}
           featured={featured ? "true" : "false"}
         >
